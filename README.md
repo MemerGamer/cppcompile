@@ -5,6 +5,14 @@
 The program searches for the .cpp files then tries compiles it.
 Otherwise displays the compilation error.
 
+## !!!NOTE: The first compilation needs to be done with:
+```console
+g++ -std=c++20 main.cpp [function.cpp] ... && ./a.out [Argument1] [Argument2]
+```
+## before using the script.
+
+<hr>
+
 ## Usage example:
 ```console
 cppcompile.sh [Argument1] [Argument2] ...
