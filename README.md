@@ -1,17 +1,22 @@
 # cppcompile
 ## Bash script for easier C++ compiling and running from terminal.
 
-
 The program searches for the .cpp files then tries compiles it.
 Otherwise displays the compilation error.
 
-## !!!NOTE: The first compilation needs to be done with:
-```console
-g++ -std=c++20 main.cpp [function.cpp] ... && ./a.out [Argument1] [Argument2]
-```
-## before using the script.
+# Demo
+If you want to try the program you could try it in the demo folder.
+The demo program prints out input arguments to the terminal, if there is none prints out ```'./a.out```.
 
-<hr>
+Demo usage:
+```console
+cd demo/
+cppcompile.sh banana 5 4.8
+```
+Output should be:
+```console
+Program arguments are: 'banana', '5', '4.8'.
+```
 
 ## Usage example:
 ```console

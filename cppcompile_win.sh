@@ -42,6 +42,6 @@ if [[ $? != 0 ]]; then
     echo -e "Error:\n$output"
 else
     # Compilation successfull
-    cmdbase
+    $output
     ./a.exe $arguments
 fi
