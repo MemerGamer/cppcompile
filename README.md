@@ -6,7 +6,7 @@ Otherwise displays the compilation error.
 
 # Demo
 If you want to try the program you could try it in the demo folder.
-The demo program prints out input arguments to the terminal, if there is none prints out ```'./a.out```.
+The demo program prints out input arguments to the terminal, if there is none prints out ```'./a.out'```.
 
 Demo usage:
 ```console
