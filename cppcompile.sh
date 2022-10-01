@@ -42,5 +42,6 @@ if [[ $? != 0 ]]; then
     echo -e "Error:\n$output"
 else
     # Compilation successful
+    cmdbase
     ./a.out $arguments
 fi
