@@ -37,11 +37,11 @@ do
 done
 
 output=$cmdbase
-if [[ $? != 0 ]]; then
-    # There was an error, display the error in $output
-    echo -e "Error:\n$output"
-else
-    # Compilation successful
+if ! [[ $? != 0 ]]; then 
+    # Compilation successful if there wasn't an error
     $output
     ./a.out $arguments
+else
+    # There was an error, display the error in $output
+    echo -e "Error:\n$output"
 fi
