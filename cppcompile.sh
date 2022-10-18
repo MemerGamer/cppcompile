@@ -16,6 +16,9 @@
 # If you want to change the c++ standard for example
 # if you want to use c++23 all you need to do is to rewrite it int the code
 # ex: g++ -std=c++20 becomes g++ -std=c++23
+
+set -e
+
 cmdbase="g++ -std=c++20 "
 
 # Searching for .cpp files
